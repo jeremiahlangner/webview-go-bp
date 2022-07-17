@@ -1,0 +1,25 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix",
+    "build": "cp -r assets ./dist/assets && cp index.html ./dist && esbuild $(esbuild-config)",
+    "serve": "go run server.go"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "esbuild": "^0.14.49",
+    "esbuild-config": "^0.2.0",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "pixi.js": "^6.4.2"
+  }
+}

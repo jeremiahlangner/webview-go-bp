@@ -1,0 +1,6 @@
+{
+  "entry": "./src/main.ts",
+  "outdir": "./dist",
+  "bundle": true,
+  "minify": true
+}
