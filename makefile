@@ -1,7 +1,7 @@
 .PHONY: all build clean
 
 build:
-	go build -o bin/app app.go 
+	go build -o bin/app main.go 
 
 run:
 	./bin/app-linux-amd64

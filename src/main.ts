@@ -2,9 +2,9 @@ import { Application, Loader } from "pixi.js";
 import { Config } from "./config";
 
 export class Main {
-  app: PIXI.Application;
+  app: Application;
   // Probably don't need loader, so can export a version of PIXI without it.
-  loader: PIXI.Loader.shared;
+  loader: Loader.shared;
   config: typeof Config;
 
   constructor() {
